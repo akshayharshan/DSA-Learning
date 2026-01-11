@@ -1,0 +1,13 @@
+s = "madamm"
+l,r = 0, len(s)-1
+while l < r:
+    if s[l] != s[r]:
+        print("this is not palidrome")
+        break
+    l += 1
+    r -=1
+else:
+    print("this is palindrome")
+
+# The point here is when the loop completes naturally it will jump into the else block
+#  if any break happend it never goes to else
