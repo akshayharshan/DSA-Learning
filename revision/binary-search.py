@@ -15,3 +15,28 @@ while l <= r:
         r = mid - 1
 print(s)
     
+
+# part of revision
+
+
+nums = [1,2,2,2,3,4]
+target = 2
+l=0
+r=len(s)-1
+ans = -1
+while l <= r:
+    mid = l + (r-l)//2
+
+    if nums[mid] == target:
+        ans = mid
+        l = mid +1
+    elif(target > nums[mid]):
+        l = mid+1
+    elif(target < nums[mid]):
+        r = mid - 1
+print(ans)
+
+
+
+
+    
