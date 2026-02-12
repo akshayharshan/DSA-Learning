@@ -20,3 +20,5 @@ def prefix_sum(nums,k):
 nums = [1, 2, 3]
 k = 7
 print(prefix_sum(nums,k))
+
+
