@@ -39,3 +39,19 @@ LEFT JOIN orders
 ON users.id = orders.user_id
 GROUP BY users.id, users.name
 HAVING COALESCE(SUM(orders.amount), 0) > 500;
+
+
+SELECT users.name,users.id
+FROM users LEFT JOIN 
+orders ON users.id = orders.user_id
+WHERE orders.id IS NULL
+
+
+
+SELECT users.name,users.id, COALESCE(SUM(orders.amount),0) AS total_aamount
+FROM users LEFT JOIN 
+orders ON users.id = orders.user_id 
+GROUP BY users.id
+
+
+

@@ -167,3 +167,21 @@ Even if code is not perfect, **clear thinking impresses interviewers**.
 You do NOT need 200 LeetCode problems.
 
 Master these **30 problems deeply** and you will be ready for most service-company interviews.
+
+
+Two Sum
+Longest Substring Without Repeating Characters
+Minimum Size Subarray Sum
+Subarray Sum Equals K
+Balanced Parentheses
+Min Stack
+Largest Rectangle in Histogram
+Merge Intervals
+Reverse Linked List
+Linked List Cycle
+Kth Largest Element
+Top K Frequent Elements
+Climbing Stairs
+Maximum Subarray (Kadane)
+Container With Most Water
+Trapping Rain Water
