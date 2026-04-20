@@ -11,4 +11,3 @@ class Square(Shape):
         return self.side * self.side
 s  = Square(4)
 print(s.area())
-

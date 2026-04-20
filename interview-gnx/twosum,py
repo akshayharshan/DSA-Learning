@@ -1,0 +1,7 @@
+def two_sum(nums,target):
+    hashmap = {}
+    for i in range(len(nums)):
+        compliment = target - nums[i]
+        if compliment in hashmap:
+            return i,hashmap[compliment]
+        hashmap[nums[i]] = i
