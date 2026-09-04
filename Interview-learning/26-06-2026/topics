@@ -1,0 +1,175 @@
+# Monday DSA Plan (Interview Focus)
+
+## Goal
+
+Complete the remaining Two Pointer topic and establish a solid foundation in Binary Search.
+
+Duration: **2.5–3 Hours**
+
+---
+
+# Session 1 (45–60 Minutes)
+
+## 1. Trapping Rain Water ⭐⭐⭐⭐⭐
+
+Concepts
+
+- Brute Force
+- Prefix Max Array
+- Suffix Max Array
+- Two Pointer Optimization
+- Why Two Pointers Work
+
+Interview Focus
+
+- Derive the optimized solution from the brute-force approach.
+- Explain the intuition instead of memorizing the code.
+
+---
+
+# Session 2 (30 Minutes)
+
+## Binary Search Fundamentals
+
+Topics
+
+- When Binary Search is applicable
+- Loop Invariants
+- Mid Calculation
+- Left / Right Pointer Movement
+- Common Mistakes
+- Time Complexity
+
+Practice
+
+- Binary Search (LeetCode 704)
+
+---
+
+# Session 3 (45 Minutes)
+
+## Search in Rotated Sorted Array ⭐⭐⭐⭐⭐
+
+Concepts
+
+- Why Binary Search still works
+- Identifying the sorted half
+- Deciding which half to discard
+
+Interview Focus
+
+Many product companies ask this problem or a variation of it.
+
+---
+
+# Session 4 (30 Minutes)
+
+## Find Minimum in Rotated Sorted Array
+
+Concepts
+
+- Binary Search on rotated arrays
+- Comparing middle with right
+- Why the minimum always lies in one half
+
+---
+
+# Session 5 (30 Minutes)
+
+## Koko Eating Bananas
+
+Concepts
+
+- Binary Search on the Answer
+- Search Space
+- Feasibility Function
+
+Interview Focus
+
+This introduces the important "Binary Search on Answer" pattern.
+
+---
+
+# Revision (15–20 Minutes)
+
+Revise:
+
+## Arrays & Hashing
+
+- Two Sum
+- Group Anagrams
+- Product Except Self
+- Longest Consecutive Sequence
+- Top K Frequent Elements
+
+---
+
+## Sliding Window
+
+- Best Time to Buy and Sell Stock
+- Longest Substring Without Repeating Characters
+- Maximum Subarray
+
+---
+
+## Two Pointers
+
+- Valid Palindrome
+- Container With Most Water
+- 3Sum
+- Trapping Rain Water
+
+---
+
+# Learning Outcomes
+
+By the end of Monday, you should be able to:
+
+✅ Recognize when to use Binary Search.
+
+✅ Solve classic Binary Search problems.
+
+✅ Explain Two Pointer optimization.
+
+✅ Identify Binary Search on Answer problems.
+
+---
+
+# Don't Do Tomorrow
+
+Avoid spending time on:
+
+- Heap
+- Graphs
+- Dynamic Programming
+- Trie
+- Backtracking
+- Segment Tree
+
+These are valuable topics, but they're lower priority than strengthening your core patterns before the interview.
+
+---
+
+# Interview Readiness After Monday
+
+Completed Categories
+
+- Arrays & Hashing
+- Sliding Window
+- Two Pointers
+- Binary Search
+
+These four categories cover a significant portion of medium-level DSA questions commonly asked in backend interviews.
+
+
+
+
+
+| Time        | Topic                                              |
+| ----------- | -------------------------------------------------- |
+| 9:00–10:30  | Python (Decorators & Context Managers)             |
+| 10:45–12:30 | SQL (SELECT, JOIN, GROUP BY, HAVING)               |
+| 2:00–5:00   | DSA (Plan above)                                   |
+| 5:30–7:00   | FastAPI (Request Lifecycle & Dependency Injection) |
+| 8:00–9:00   | PostgreSQL (Indexes & MVCC)                        |
+| 9:00–10:00  | Mock Interview (Python + SQL + DSA)                |
